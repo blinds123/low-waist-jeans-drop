@@ -5,10 +5,10 @@
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block
 
-# Preconnect to speed up redirects
+# Preconnect for pool API
 /*
-  Link: <https://burgundyset.netlify.app>; rel=preconnect
-  Link: <https://burgundyset.netlify.app>; rel=dns-prefetch
+  Link: <https://simpleswap-automation-1.onrender.com>; rel=preconnect
+  Link: <https://analytics.tiktok.com>; rel=dns-prefetch
 
 # Cache static assets aggressively
 /images/*
