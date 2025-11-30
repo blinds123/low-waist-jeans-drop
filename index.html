@@ -137,10 +137,13 @@ body{font-family:var(--font-body);color:var(--brand-dark);line-height:1.6;backgr
 
 /* Mobile Responsive */
 @media(max-width:768px){
-.product-hero{grid-template-columns:1fr;gap:30px;padding:20px 16px}
-.gallery{position:static}
-.container{padding:0 16px}
+.product-hero{grid-template-columns:1fr;gap:30px;padding:20px 16px;max-width:100%;overflow-x:hidden}
+.gallery{position:static;max-width:100%;width:100%}
+.main-img{max-width:100%;width:100%;height:auto}
+.container{padding:0 16px;max-width:100%;overflow-x:hidden}
 .cta-btn{font-size:16px;padding:16px;min-height:56px}
+#thumbs{max-width:100%;flex-wrap:nowrap}
+.product-info{max-width:100%;overflow-x:hidden}
 }
 
 @keyframes fadeIn{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
